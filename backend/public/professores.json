@@ -1,0 +1,17 @@
+[
+    {
+        "codigo": 1,
+        "nomeprofessor": "Rafael de Moura Speroni",
+        "emailprofessor": "rafael.speroni@ifc.edu.br"
+    },
+    {
+        "codigo": 5,
+        "nomeprofessor": "Aujor Andrade",
+        "emailprofessor": "aujor.andrade@ifc.edu.br"
+    },
+    {
+        "codigo": 4,
+        "nomeprofessor": "Joice Seleme Mota",
+        "emailprofessor": "joice.mota@ifc.edu.br"
+    }
+]

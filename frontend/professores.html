@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cadastro de Professores</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <img src="img/logo-ifc.png" alt="Logo IFC">
+
+        <h1>Cadastro de Professores</h1>
+
+    </header>
+
+    <nav>
+
+        <a href="index.html">Página Principal</a>
+
+        <a href="cursos.html">Cadastro de Cursos</a>
+
+    </nav>
+
+    <div class="container">
+
+        <button id="addProfessor">
+            Adicionar Professor
+        </button>
+
+        <table id="professoresTable">
+
+            <thead>
+
+                <tr>
+
+                    <th>Código</th>
+                    <th>Nome do Professor</th>
+                    <th>E-mail</th>
+                    <th>Ações</th>
+
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+    <div id="professorModal" class="modal">
+
+        <div class="modal-content">
+
+            <span class="close">&times;</span>
+
+            <h2>Cadastro de Professor</h2>
+
+            <form id="professorForm">
+
+                <input type="number"
+                       id="codigo"
+                       placeholder="Código"
+                       required>
+
+                <input type="text"
+                       id="nomeProfessor"
+                       placeholder="Nome do Professor"
+                       required>
+
+                <input type="email"
+                       id="emailProfessor"
+                       placeholder="E-mail"
+                       required>
+
+                <button type="submit">
+                    Salvar
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+    <script src="professores.js"></script>
+
+</body>
+
+</html>
